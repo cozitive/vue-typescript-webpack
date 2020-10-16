@@ -5,6 +5,8 @@ Use the popular [Vue.js](https://github.com/vuejs/vue) framework with [TypeScrip
 - [Quick Guide](#quick-guide)
 - [Detailed Info](#detailed-info)
   - [webpack.config.js](#webpackconfigjs)
+  - [src](#src)
+  - [out](#out)
 
 ## About
 This is an example of building a project written in **Vue.js** + **Typescript** with **Webpack**.
