@@ -18,7 +18,7 @@ $ npm install
 ```
 2. Delete files in ```src``` and put your Vue.js project (written with TypeScript).
   - If the entry file name is not ```index.ts```, change a value of ```entry``` in ```wepack.config.js``` appropriately.
-3. Build the project and check the output (The default path is ```out/build.js```):
+3. Build the project and check the output (The default path is ```build/script.js```):
 ```
 $ npm run build
 ```
@@ -34,6 +34,7 @@ $ npm run server
   - ```path```: An ABSOLUTE path that the build will be saved
   - ```publicPath```: Automatically creates prefixes to static files
   - ```filename```: A name of the build file
+- ```plugins```: A webpack plugin list
 - ```module```
   - ```rules```: Rules for processing files
     - ```test```: Use RegEx to distinguish files by extension
@@ -46,11 +47,10 @@ $ npm run server
   - ```contentBase```: DevServer will show index.html in this path
   - ```host```
   - ```port```
-- ```plugins```: A webpack plugin list
 
 ### src
 It is a simple HelloWorld example using Vue.
 
 ### out
 - ```index.html```: A HTML file to contain the builded ```.js``` file
-- ```build.js```: An output file of webpack build
+- ```script.js```: An output file of webpack build
